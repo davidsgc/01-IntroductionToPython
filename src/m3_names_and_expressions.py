@@ -20,7 +20,7 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
 #         HINT: You will need to import the   math  module (library).
@@ -29,8 +29,8 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 import math
-pickle= (77 + cosine(2.75))
-print(sqrt(pickle))
+pickle = 77 + math.cos(2.75)
+print (math.sqrt(pickle))
 ###############################################################################
 # TODO: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
