@@ -1760,7 +1760,7 @@ class SimpleTurtle(object):
         self._turtle = turtle.Turtle(shape)
         self._update_real_turtle()
 
-    def forward(self, distance):
+    def forward(self, distance: object) -> object:
         """
         Makes this SimpleTurtle go forward the given distance
         (in pixels).  Example (assuming  sally  is an rg.SimpleTurtle):
@@ -1793,7 +1793,7 @@ class SimpleTurtle(object):
         self._update_real_turtle()
         self._turtle.left(angle)
 
-    def right(self, angle):
+    def right(self, angle: object) -> object:
         """
         Makes this SimpleTurtle turn (i.e. spin) right the given distance
         (in degrees).  Example (assuming  sally  is an rg.SimpleTurtle):
