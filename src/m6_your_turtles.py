@@ -33,9 +33,22 @@ window= rg.TurtleWindow
 fredward = rg.SimpleTurtle('square')
 fredward.pen = rg.Pen('magenta', 5)
 fredward.speed = 5
-
 size = 80
-
 for k in range (12):
     fredward.draw_square(size)
     fredward.right(30)
+jimmy = rg.SimpleTurtle('arrow')
+jimmy.pen_up()
+jimmy.go_to(rg.Point(150,150))
+jimmy.pen_down()
+for k in range (7):
+    jimmy.left(30)
+    jimmy.forward(70)
+    jimmy.right(30)
+    jimmy.forward(70)
+    jimmy.right(145)
+    jimmy.forward(70)
+    jimmy.right(60)
+window.close_on_mouse_click()
+
+
