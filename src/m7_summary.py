@@ -43,6 +43,14 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow
 frisbee = rg.SimpleTurtle('circle')
 frisbee.forward(200)
-frisbee.pen_Up
+frisbee.pen_up()
+frisbee.go_to(rg.Point(100, -40))
+frisbee.pen_down()
+frisbee.pen = rg.Pen('green',10)
+frisbee.backward(150)
+
+window.close_on_mouse_click()
