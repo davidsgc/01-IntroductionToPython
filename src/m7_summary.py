@@ -46,7 +46,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 import rosegraphics as rg
 window = rg.TurtleWindow
 frisbee = rg.SimpleTurtle('circle')
-frisbee.right(90)
+frisbee.right(90 )
 frisbee.forward(200)
 frisbee.pen_up()
 frisbee.go_to(rg.Point(100, -40))
